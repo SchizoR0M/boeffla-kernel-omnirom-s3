@@ -1,0 +1,21 @@
+From 517bc7fd027c22f0efb0b0d6414841d380e19436 Mon Sep 17 00:00:00 2001
+From: andip71 <andreasp@gmx.de>
+Date: Mon, 30 Dec 2013 08:42:58 +0100
+Subject: [PATCH] aaa
+
+---
+ init.environ.rc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/init.environ.rc b/init.environ.rc
+index 3ae105a..cfd57be 100755
+--- a/init.environ.rc
++++ b/init.environ.rc
+@@ -9,4 +9,4 @@ on init
+     export ANDROID_STORAGE /storage
+     export ASEC_MOUNTPOINT /mnt/asec
+     export LOOP_MOUNTPOINT /mnt/obb
+-    export BOOTCLASSPATH /system/framework/core.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/framework2.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/mms-common.jar:/system/framework/android.policy.jar:/system/framework/services.jar:/system/framework/apache-xml.jar:/system/framework/webviewchromium.jar
++    export BOOTCLASSPATH /system/framework/core.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/framework2.jar:/system/framework/framework-fusion.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/mms-common.jar:/system/framework/android.policy.jar:/system/framework/services.jar:/system/framework/apache-xml.jar:/system/framework/webviewchromium.jar
+-- 
+1.8.1.2
